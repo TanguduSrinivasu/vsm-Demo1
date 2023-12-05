@@ -1,10 +1,9 @@
-version: 0.0.2
+version: 2.1.7
 integrations:
-  - type: ucv-ext-ucd
-    attributes:
-      auto-config: true
+  - type: ucv-ext-launch
     configs:
-      name: UCD Integration
+      name: Launch Integration
       baseUrl: https://10.134.119.250:8443
-      deployToken: 3c21f5d8-c9e1-471c-a38d-2e062b63c075
+      ucvAccessKey: daf2a8dc-01df-4c5d-a4a5-75620a6f5866
+      launchToken: 3c21f5d8-c9e1-471c-a38d-2e062b63c075
       loggingLevel: DEBUG
